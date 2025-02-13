@@ -60,6 +60,8 @@ int main() {
 
 <br>
 
+___
+
 ### 2. Find Second Smallest and Second Largest Element in an array
 <br>
 
