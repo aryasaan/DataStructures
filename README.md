@@ -23,7 +23,6 @@ Explanation:
  10 is the largest element in the array.
 
 ```bash
-<pre>
     
 #include <bits/stdc++.h>
  
@@ -51,4 +50,4 @@ int main() {
   return 0;
 }
 
-</pre>
+
