@@ -50,4 +50,12 @@ int main() {
   return 0;
 }
 
+```
+#### ✨ Complexity Analysis:
+
+**Time Complexity:** O(N), where N is the size of the array (as we traverse the array once).
+
+**Space Complexity:** O(1), as we use a constant amount of extra space.
+
+
 
