@@ -58,4 +58,7 @@ int main() {
 **Space Complexity:** O(1), as we use a constant amount of extra space.
 
 
+### 2. Find Second Smallest and Second Largest Element in an array
+
+
 
