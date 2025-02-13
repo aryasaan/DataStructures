@@ -1,24 +1,28 @@
-### Important Questions of DSA
-#BASIC QUESTIONS:-
+# Important Questions of DSA
+## BASIC QUESTIONS:-
 <br>
-##Find the Largest element in an array
+
+### 1. Find the Largest element in an array
 <br>
-Example 1:
-Input:
+
+#### ✨ Example 1:
+
+**Input:**
  arr[] = {2,5,1,3,0};
-Output:
+**Output:**
  5
 Explanation:
  5 is the largest element in the array. 
 
-Example2:
-Input:
+#### ✨ Example 2:
+**Input:**
  arr[] = {8,10,5,7,9};
-Output:
+**Output:*
  10
 Explanation:
- 10 is the largest element in the array. 
+ 10 is the largest element in the array.
 
+```bash
 <pre>
     
 #include <bits/stdc++.h>
