@@ -7,17 +7,17 @@
 
 #### ✨ Example 1:
 
-**Input:**
- arr[] = {2,5,1,3,0};
+**Input:**<br>
+ arr[] = {2,5,1,3,0};<br>
 **Output:**
  5
 Explanation:
  5 is the largest element in the array. 
 
-#### ✨ Example 2:
-**Input:**
- arr[] = {8,10,5,7,9};
-**Output:*
+### ✨ Example 2:
+**Input:**<br>
+ arr[] = {8,10,5,7,9};<br>
+**Output:**
  10
 Explanation:
  10 is the largest element in the array.
@@ -60,6 +60,21 @@ int main() {
 <br>
 
 ### 2. Find Second Smallest and Second Largest Element in an array
+<br>
+#### ✨ Example 1:
+
+**Input:**
+
+arr[] = {1,2,4,7,7,5}
+
+**Output:**
+<br>
+
+**Second Smallest : 2**
+<br>
+
+**Second Largest : 5**
+
 
 
 
