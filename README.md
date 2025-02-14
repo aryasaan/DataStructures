@@ -12,7 +12,8 @@
  arr[] = {2,5,1,3,0};<br>
 **Output:**
  5<br>
-Explanation:
+ 
+**Explanation:**
  5 is the largest element in the array. 
 
 ### ✨ Example 2:
@@ -20,7 +21,8 @@ Explanation:
  arr[] = {8,10,5,7,9};<br>
 **Output:**
  10<br>
-Explanation:
+ 
+**Explanation:**
  10 is the largest element in the array.
 
 ```bash
