@@ -166,6 +166,39 @@ If there are k elements after removing the duplicates, then the first k elements
  **arr = [1,2,3,_,_,_,_]**
 <br>
 
+```bash
+
+#include<bits/stdc++.h>
+
+using namespace std;
+int removeDuplicates(int arr[], int n)
+{
+  int i = 0;
+  for (int j = 1; j < n; j++) {
+    if (arr[i] != arr[j]) {
+      i++;
+      arr[i] = arr[j];
+    }
+  }
+  return i + 1;
+}
+int main() {
+  int arr[] = {1,1,2,2,2,3,3};
+  int n = sizeof(arr)/sizeof(arr[0]);
+  int k = removeDuplicates(arr, n);
+  cout << "The array after removing duplicate elements is " << endl;
+  for (int i = 0; i < k; i++) {
+    cout << arr[i] << " ";
+  }
+}
+
+```
+**Complexity Analysis**
+
+**Time Complexity: O(N)**
+
+**Space Complexity: O(1)**
+
 
 
 
