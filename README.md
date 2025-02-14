@@ -71,7 +71,7 @@ ___
 
 **Input:**
 
-arr[] = {1,2,4,7,7,5}
+**arr[] = {1,2,4,7,7,5}**
 
 **Output:**
 <br>
@@ -142,9 +142,10 @@ int main() {
 }
 
 ```
-**Time Complexity:** O(N), Single-pass solution
+**Time Complexity: O(N), Single-pass solution**
 
-**Space Complexity:** O(1)
+**Space Complexity: O(1)**
+
 <br>
 ___
 ### 3. Remove Duplicates in-place from Sorted Array
@@ -163,10 +164,11 @@ If there are k elements after removing the duplicates, then the first k elements
 
 **Output:**
 
- **arr = [1,2,3,_,_,_,_]**
+ **arr = [1,2,3,_,_,_,_,_]**
 <br>
 
 ```bash
+
 
 #include<bits/stdc++.h>
 
@@ -198,7 +200,7 @@ int main() {
 **Time Complexity: O(N)**
 
 **Space Complexity: O(1)**
-
+___
 
 
 
