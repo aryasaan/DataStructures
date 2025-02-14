@@ -143,6 +143,19 @@ int main() {
 **Time Complexity:** O(N), Single-pass solution
 
 **Space Complexity:** O(1)
+<br>
+___
+### 3.Remove Duplicates in-place from Sorted Array
+<br>
+
+### ✨ Example 1:
+
+arr = {1,1,2,2,2,3,3}
+
+**Output:**
+
+ arr = [1,2,3,_,_,_,_]
+<br>
 
 
 
