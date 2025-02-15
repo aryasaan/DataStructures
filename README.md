@@ -262,7 +262,9 @@ int main()
 ```
 
 **Time Complexity: O(N), where N = size of the given array.**
+
 <br>
+
 **Reason: We are using a single loop that can run at most N times**
 <br>
 
