@@ -147,6 +147,7 @@ int main() {
 **Space Complexity: O(1)**
 
 <br>
+
 ___
 
 ### 3. Remove Duplicates in-place from Sorted Array
@@ -211,6 +212,8 @@ ___
 
 **Input:**
  **nums = [2,0,2,1,1,0]**
+ <br>
+ 
 **Output**
 **: [0,0,1,1,2,2]**
 
