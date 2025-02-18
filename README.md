@@ -271,4 +271,15 @@ int main()
 **Space Complexity: O(1) as we are not using any extra space.**
 
 
+___
 
+### 5. Stock Buy And Sell
+
+<br>
+
+**Problem Statement:** You are given an array of prices where prices[i] is the price of a given stock on an ith day.
+
+<br>
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
+<br>
