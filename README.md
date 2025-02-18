@@ -303,8 +303,48 @@ Explanation:
 sell on day 5 (price = 6), profit = 6-1 = 5.
 </b>
 
+<b>
+	
 **Note**
 <b>: That buying on day 2 and selling on day 1 
 is not allowed because you must buy before 
 you sell.
 </b>
+
+<br>
+
+```bash
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int maxProfit(vector<int> &arr) {
+    int maxPro = 0;
+    int n = arr.size();
+    int minPrice = INT_MAX;
+
+    for (int i = 0; i < arr.size(); i++) {
+        minPrice = min(minPrice, arr[i]);
+        maxPro = max(maxPro, arr[i] - minPrice);
+    }
+    
+    return maxPro;
+}
+
+int main() {
+    vector<int> arr = {7,1,5,3,6,4};
+    int maxPro = maxProfit(arr);
+    cout << "Max profit is: " << maxPro << endl;
+}
+
+```
+
+**Complexity Analysis**
+
+<br>
+
+**Time complexity: O(n)**
+
+<br>
+
+**Space Complexity: O(1)**
