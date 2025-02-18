@@ -303,7 +303,8 @@ Explanation:
 sell on day 5 (price = 6), profit = 6-1 = 5.
 </b>
 
-Note
-: That buying on day 2 and selling on day 1 
+**Note**
+<b>: That buying on day 2 and selling on day 1 
 is not allowed because you must buy before 
 you sell.
+</b>
