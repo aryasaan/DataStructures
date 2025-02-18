@@ -295,13 +295,13 @@ You want to maximize your profit by choosing a single day to buy one stock and c
 
  <br>
  
-**Output:**
+**Output: 5**
 
-** 5**
-
+<b>
 Explanation:
  Buy on day 2 (price = 1) and 
 sell on day 5 (price = 6), profit = 6-1 = 5.
+</b>
 
 Note
 : That buying on day 2 and selling on day 1 
