@@ -356,3 +356,16 @@ ___
 ### 6. Kadane's Algorithm : Maximum Subarray Sum in an Array
 **Problem Statement: Given an integer array arr, find the contiguous subarray (containing at least one number) which
 has the largest sum and returns its sum and prints the subarray.**
+<br>
+#### ✨ Example 1:
+
+<br>
+
+**Example 1:
+Input:
+ arr = [-2,1,-3,4,-1,2,1,-5,4]**
+
+ <br>
+
+**Output:
+ 6**
