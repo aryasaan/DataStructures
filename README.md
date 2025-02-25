@@ -496,7 +496,12 @@ int main()
 
 ```
 
+**Time Complexity: O(3N), where N = size of the given array
+Finding the break-point, finding the next greater element, and reversal at the end takes O(N) for each, where N is the number of elements in the input array. This sums up to 3*O(N) which is approximately O(3N).**
 
+<br>
+
+**Space Complexity: Since no extra storage is required. Thus, its space complexity is O(1).**
 
 
 
