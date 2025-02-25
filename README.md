@@ -419,9 +419,11 @@ ___
 
 <br>
 
-**7.Stock Buy And Sell
-Problem Statement: You are given an array of prices where prices[i] is the price of a given stock on an ith day.
-You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.**
+### 7. next_permutation : find next lexicographically greater permutation
+<br>
+
+**Problem Statement: Given an array Arr[] of integers, rearrange the numbers of the given array into the lexicographically next greater permutation of numbers.
+If such an arrangement is not possible, it must rearrange to the lowest possible order (i.e., sorted in ascending order).**
 <br>
 #### ✨ Example 1:
 
