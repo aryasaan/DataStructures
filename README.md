@@ -512,16 +512,24 @@ ___
 <br>
 
 <br>
-#### ✨ Example 1:
+
+#### ✨Example 1:
 
 <br>
 
-**Input format:
+**Input
  nums = [-1,0,1,2,-1,-4]**
  <br>
 
 **Output:
  [[-1,-1,2],[-1,0,1]]**
+
+ <br>
+ 
+ **Explanation:**
+ <br>
+ 
+ **Out of all possible unique triplets possible, [-1,-1,2] and [-1,0,1] satisfy the condition of summing up to zero with i!=j!=k**
 
 
 
