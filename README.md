@@ -596,10 +596,27 @@ Reason: The pointer i, is running for approximately N times. And both the pointe
 
 **Space Complexity: O(no. of quadruplets), This space is only used to store the answer. We are not using any extra space to solve this problem. So, from that perspective, space complexity can be written as O(1).**
 
-### Majority Element-I
+### 8.Majority Element-I
 **Given an integer array nums of size n, return the majority element of the array.**
 
 **The majority element of an array is an element that appears more than n/2 times in the array. The array is guaranteed to have a majority element.**
+
+<br>
+
+#### ✨Example 1:
+
+<br>
+
+**Input: nums = [7, 0, 0, 1, 7, 7, 2, 7, 7]**
+
+<br>
+
+**Output: 7**
+
+<br>
+
+**Explanation: The number 7 appears 5 times in the 9 sized array**
+
 
 
 
