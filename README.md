@@ -617,6 +617,31 @@ Reason: The pointer i, is running for approximately N times. And both the pointe
 
 **Explanation: The number 7 appears 5 times in the 9 sized array**
 
+```
+ class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int n = nums.size();
+        unordered_map<int, int> m;
+
+        for(int i = 0; i<n; i++){
+            m[nums[i]]++;
+          
+        }
+        n= n/2;
+        for(auto it: m){
+            if(it.second > n){
+                return it.first;
+            }
+        }
+        return 0;
+
+        }
+        
+    
+};
+```
+
 
 
 
